@@ -10,3 +10,36 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# FredDecodes Portfolio
+
+A React-based portfolio website to showcase your brand and work.
+
+## 🚀 Quick Start
+
+1. **Install dependencies**
+
+   ```
+   npm install
+   ```
+
+2. **Run locally**
+
+   ```
+   npm start
+   ```
+
+3. **Deploy to GitHub Pages**
+   - Set your repo as `"homepage"` in `package.json`
+   - Build and deploy:
+     ```
+     npm run deploy
+     ```
+
+## 🛠️ Customize
+
+Edit files in `src/components` to update About, Projects, and Contact info.
+
+## 📄 License
+
+MIT
