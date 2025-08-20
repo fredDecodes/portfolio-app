@@ -19,12 +19,12 @@ const Projects = () => {
       <h2>Projects</h2>
       <ul>
         {projects.map((project, index) => (
-            <li key={index}>
-                <strong>{project.title}</strong>: {project.description}{" "}
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    View Project
-                </a>
-            </li>
+          <li key={index}>
+            <strong>{project.title}</strong>: {project.description}{" "}
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
+          </li>
         ))}
       </ul>
     </div>
