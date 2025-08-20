@@ -1,6 +1,18 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
+const contactSectionStyle = {
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
+  fontFamily: "'Times New Roman', Times, serif",
+  fontSize: "1.3rem",
+  color: "#222",
+  textAlign: "center",
+  margin: "0 auto",
+};
+
 const linkStyle = {
   display: "flex",
   alignItems: "center",
@@ -13,24 +25,26 @@ const linkStyle = {
   padding: "8px 18px",
   textDecoration: "none",
   boxShadow: "0 2px 8px #90CAF930",
-  fontSize: "1.1rem",
+  fontSize: "1.18rem",
   transition: "background 0.18s, transform 0.2s",
   marginBottom: "12px",
-  animation: "fadeIn 0.7s cubic-bezier(.49,.53,.54,.83) backwards"
+  animation: "fadeIn 0.7s cubic-bezier(.49,.53,.54,.83) backwards",
 };
 
 const iconStyle = {
-  fontSize: "1.46em",
+  fontSize: "1.54em",
   color: "#4285F4",
-  transition: "color 0.2s, transform 0.2s"
+  transition: "color 0.2s, transform 0.2s",
 };
 
 const Contact = () => {
   return (
-    <div>
+    <div style={contactSectionStyle}>
       <h2>Contact</h2>
-      <p>Find me on social media or reach out via email:</p>
-      <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+      <p style={{ fontSize: "1.22rem" }}>
+        Find me on social media or reach out via email:
+      </p>
+      <ul style={{ listStyle: "none", paddingLeft: 0, margin: "0 0 8px 0" }}>
         <li>
           <a
             href="https://www.linkedin.com/in/freddecodes"
@@ -66,7 +80,9 @@ const Contact = () => {
           </a>
         </li>
       </ul>
-      <p>I look forward to connecting with you!</p>
+      <p style={{ fontSize: "1.16rem", margin: "10px 0 0 0" }}>
+        I look forward to connecting with you!
+      </p>
       <style>{`
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(18px);}
