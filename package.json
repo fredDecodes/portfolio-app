@@ -1,8 +1,8 @@
 {
   "name": "portfolio-app",
-  "homepage": "https://github.com/fredDecodes/portfolio-app",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/fredDecodes/portfolio-app",
   "type": "module",
   "scripts": {
     "dev": "vite",
